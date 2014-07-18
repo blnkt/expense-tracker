@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-1.11.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Your Score</title>
+</head>
+<body>
+  <div class="container">
+    <h1>CALCULATE YOUR SCORE</h1>
+    <div class="row">
+      <div id="first-column" class="col-md-4">
+        <h2>PERSONS</h2>
+        <ul class="people"></ul>
+        <form>
+          <div class="form-group">
+            <input type="text" class="form-control new-name" placeholder="Enter Your Name" required>
+            <br>
+            <button type="button" class="btn btn-primary">Add your name to the list</button>
+          </div>
+        </form>
+      </div>
+      <div id="second-column" class="col-md-4">
+        <br>
+        <h4>what are your possessions?</h4>
+        <form>
+            <input type="text" class="form-control new-possession" placeholder="What do you take with you?" required>
+            <br>
+            <select type="number" class="form-control">
+              <option>What is your possession worth?</option>
+              <option>-5</option>
+              <option>-4</option>
+              <option>-3</option>
+              <option>-2</option>
+              <option>-1</option>
+              <option>0</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+            <br>
+            <button type="button" class="btn btn-primary">Add your item and it's value</button>
+        </form>
+      </div>
+      <div id="third-column" class="col-md-4">
+        <h2>YOUR SCORE</h2>
+        <ul class="possessions">stuffffff</ul>
+        <br>
+        <div class="your-score"></div>
+        <br>
+        <button type="button" class="btn btn-danger">Find out your Score</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
