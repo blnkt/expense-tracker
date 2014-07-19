@@ -1,0 +1,18 @@
+.clickable {
+  cursor: pointer;
+  color: blue;
+}
+.clickable:hover {
+  text-decoration: underline;
+}
+ul {
+  list-style-type: none;
+}
+
+#second-column {
+  display: none;
+}
+
+#third-column {
+  display: none;
+}

@@ -18,41 +18,41 @@
           <div class="form-group">
             <input type="text" class="form-control new-name" placeholder="Enter Your Name" required>
             <br>
-            <button type="button" class="btn btn-primary">Add your name to the list</button>
+            <button id="enter-your-name" type="button" class="btn btn-primary">Add your name to the list</button>
           </div>
         </form>
       </div>
       <div id="second-column" class="col-md-4">
-        <br>
+        <h2 class="person-name"></h2>
         <h4>what are your possessions?</h4>
         <form>
             <input type="text" class="form-control new-possession" placeholder="What do you take with you?" required>
             <br>
-            <select type="number" class="form-control">
-              <option>What is your possession worth?</option>
-              <option>-5</option>
-              <option>-4</option>
-              <option>-3</option>
-              <option>-2</option>
-              <option>-1</option>
-              <option>0</option>
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
+            <select type="number" class="form-control possession-score">
+              <option id="default-option">What is your possession worth?</option>
+              <option value="-5">-5</option>
+              <option value="-4">-4</option>
+              <option value="-3">-3</option>
+              <option value="-2">-2</option>
+              <option value="-1">-1</option>
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
             </select>
             <br>
-            <button type="button" class="btn btn-primary">Add your item and it's value</button>
+            <button id="add-possession" type="button" class="btn btn-primary">Add your item and it's value</button>
         </form>
       </div>
       <div id="third-column" class="col-md-4">
         <h2>YOUR SCORE</h2>
-        <ul class="possessions">stuffffff</ul>
+        <ul class="possessions"></ul>
         <br>
         <div class="your-score"></div>
         <br>
-        <button type="button" class="btn btn-danger">Find out your Score</button>
+        <button type="button" class="btn btn-danger total-score">Find out your Score</button>
       </div>
     </div>
   </div>
